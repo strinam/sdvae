@@ -1,6 +1,6 @@
 # SDVAE 实验代码索引
 
-这是从研究工作区整理出的 SDVAE（Score-Divergence VAE）核心实验代码。内容按论文实验章节归类，只保留用于复现实验的 Jupyter notebook；训练结果目录、缓存、备份、论文源文件、对比方法的重复 notebook 和 notebook 生成脚本均未纳入。
+这是从研究工作区整理出的 SDVAE（Score-Divergence VAE）核心实验代码。内容按论文实验章节归类，只保留用于复现实验的 Jupyter notebook；缓存、备份、论文源文件、对比方法的重复 notebook 和 notebook 生成脚本均未纳入。整理后的 `results/` 保留日志、JSON、PNG 和汇总表，模型权重文件（`.pt` / `.pth`）已排除。
 
 Notebook 内已有的运行输出、图表和执行记录均保留，便于老师直接查看结果。
 
@@ -19,13 +19,18 @@ Notebook 内已有的运行输出、图表和执行记录均保留，便于老�
 
 每个 notebook 都保留了原实验的完整代码单元和运行输出。运行前请先修改配置单元中的数据路径、checkpoint 路径和 GPU 编号，再按顺序执行。代码面向 Linux + CUDA 环境，常用依赖包括 PyTorch、torchvision、Hugging Face datasets、JAX、LPIPS、torchmetrics 和 matplotlib。
 
-notebook 中仍可能出现原实验服务器路径（例如 `/home/yzm/...`），这些路径是数据与 checkpoint 的配置项，需要按运行环境替换。仓库不包含数据集、预训练权重或 TensorBoard 结果目录。
+notebook 中仍可能出现原实验服务器路径（例如 `/home/yzm/...`），这些路径是数据与 checkpoint 的配置项，需要按运行环境替换。仓库不包含数据集、预训练权重或原始 TensorBoard 日志。
 
 ## 目录结构
 
 ```text
 sdvae/
 ├── README.md
+├── results/
+│   ├── results_medvae_0702/
+│   ├── results_medvae_0705/
+│   ├── results_medvae_0706/
+│   └── zuixin.xlsx
 └── notebooks/
     ├── 01_mlp_main/
     ├── 02_medvae_main/

@@ -1,0 +1,96 @@
+============================================================
+[2026-07-05 21:45:05] run=ncp_tune_nonoise_s50_lr1e-4  split=test
+  L1    : 0.027028
+  MSE   : 0.003214
+  LPIPS : 0.012672
+  PSNR  : 31.1051 dB
+  SSIM  : 0.972829
+  FID   : 2.2120
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 50
+    step_size = 0.0001
+    clamp = 10.0
+    add_noise = False
+    use_mu = True
+============================================================
+[2026-07-05 21:46:41] run=ncp_tune_nonoise_s50_lr3e-4  split=test
+  L1    : 0.027028
+  MSE   : 0.003214
+  LPIPS : 0.012672
+  PSNR  : 31.1050 dB
+  SSIM  : 0.972827
+  FID   : 2.2120
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 50
+    step_size = 0.0003
+    clamp = 10.0
+    add_noise = False
+    use_mu = True
+============================================================
+[2026-07-05 21:49:41] run=ncp_tune_nonoise_s200_lr1e-4  split=test
+  L1    : 0.027028
+  MSE   : 0.003214
+  LPIPS : 0.012672
+  PSNR  : 31.1050 dB
+  SSIM  : 0.972827
+  FID   : 2.2117
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 200
+    step_size = 0.0001
+    clamp = 10.0
+    add_noise = False
+    use_mu = True
+============================================================
+[2026-07-05 21:51:13] run=ncp_tune_noise_s50_lr1e-4  split=test
+  L1    : 0.030397
+  MSE   : 0.003700
+  LPIPS : 0.014739
+  PSNR  : 30.4690 dB
+  SSIM  : 0.968056
+  FID   : 3.0305
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 50
+    step_size = 0.0001
+    clamp = 10.0
+    add_noise = True
+    use_mu = True
+============================================================
+[2026-07-05 21:52:29] run=ncp_tune_noise_s20_lr3e-4  split=test
+  L1    : 0.030978
+  MSE   : 0.003800
+  LPIPS : 0.015224
+  PSNR  : 30.3507 dB
+  SSIM  : 0.967120
+  FID   : 3.2244
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 20
+    step_size = 0.0003
+    clamp = 10.0
+    add_noise = True
+    use_mu = True
+============================================================
+[2026-07-05 21:55:33] run=ncp_tune_noise_s200_lr3e-5  split=test
+  L1    : 0.030990
+  MSE   : 0.003805
+  LPIPS : 0.015185
+  PSNR  : 30.3458 dB
+  SSIM  : 0.967096
+  FID   : 3.1880
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 200
+    step_size = 3e-05
+    clamp = 10.0
+    add_noise = True
+    use_mu = True

@@ -1,0 +1,140 @@
+============================================================
+[2026-07-04 20:35:02] run=ncp_stage1_vae  split=test
+  L1    : 0.039942
+  MSE   : 0.003254
+  LPIPS : 0.038691
+  PSNR  : 30.9427 dB
+  SSIM  : 0.964900
+  FID   : 7.1480
+  num_samples : 10000
+============================================================
+[2026-07-04 20:47:12] run=ncp  split=test
+  L1    : 0.038414
+  MSE   : 0.003036
+  LPIPS : 0.035338
+  PSNR  : 31.2435 dB
+  SSIM  : 0.966961
+  FID   : 6.7361
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 200
+    step_size = 1e-05
+    clamp = 10.0
+    add_noise = True
+    use_mu = True
+  -- generation FID --
+    gen_fid_prior = 322.35736083984375
+    gen_fid_ncp_prior = 320.4752197265625
+============================================================
+[2026-07-04 20:48:47] run=ncp_stage1_vae  split=test
+  L1    : 0.039926
+  MSE   : 0.003251
+  LPIPS : 0.038621
+  PSNR  : 30.9459 dB
+  SSIM  : 0.964904
+  FID   : 7.1155
+  num_samples : 10000
+============================================================
+[2026-07-04 21:02:11] run=ncp  split=test
+  L1    : 0.038414
+  MSE   : 0.003036
+  LPIPS : 0.035317
+  PSNR  : 31.2435 dB
+  SSIM  : 0.966949
+  FID   : 6.7250
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 200
+    step_size = 1e-05
+    clamp = 10.0
+    add_noise = True
+    use_mu = True
+  -- generation FID --
+    gen_fid_prior = 321.6437683105469
+    gen_fid_ncp_prior = 322.429443359375
+============================================================
+[2026-07-04 21:05:20] run=ncp_stage1_vae  split=test
+  L1    : 0.039947
+  MSE   : 0.003253
+  LPIPS : 0.038721
+  PSNR  : 30.9432 dB
+  SSIM  : 0.964896
+  FID   : 7.1550
+  num_samples : 10000
+============================================================
+[2026-07-04 21:19:47] run=ncp  split=test
+  L1    : 0.038408
+  MSE   : 0.003036
+  LPIPS : 0.035325
+  PSNR  : 31.2442 dB
+  SSIM  : 0.966964
+  FID   : 6.7378
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 200
+    step_size = 1e-05
+    clamp = 10.0
+    add_noise = True
+    use_mu = True
+  -- generation FID --
+    gen_fid_prior = 320.79248046875
+    gen_fid_ncp_prior = 321.0124206542969
+============================================================
+[2026-07-04 21:22:04] run=ncp_stage1_vae  split=test
+  L1    : 0.039919
+  MSE   : 0.003251
+  LPIPS : 0.038691
+  PSNR  : 30.9474 dB
+  SSIM  : 0.964902
+  FID   : 7.1360
+  num_samples : 10000
+============================================================
+[2026-07-04 21:34:48] run=ncp  split=test
+  L1    : 0.038412
+  MSE   : 0.003036
+  LPIPS : 0.035344
+  PSNR  : 31.2433 dB
+  SSIM  : 0.966961
+  FID   : 6.7331
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 200
+    step_size = 1e-05
+    clamp = 10.0
+    add_noise = True
+    use_mu = True
+  -- generation FID --
+    gen_fid_prior = 320.9801940917969
+    gen_fid_ncp_prior = 321.7781982421875
+============================================================
+[2026-07-04 21:37:26] run=ncp_stage1_vae  split=test
+  L1    : 0.039927
+  MSE   : 0.003252
+  LPIPS : 0.038668
+  PSNR  : 30.9453 dB
+  SSIM  : 0.964904
+  FID   : 7.1487
+  num_samples : 10000
+============================================================
+[2026-07-04 21:49:32] run=ncp  split=test
+  L1    : 0.038408
+  MSE   : 0.003036
+  LPIPS : 0.035378
+  PSNR  : 31.2439 dB
+  SSIM  : 0.966962
+  FID   : 6.7513
+  num_samples : 10000
+  -- hyper-params (NCP) --
+    bc_epochs = 50
+    n_steps = 200
+    step_size = 1e-05
+    clamp = 10.0
+    add_noise = True
+    use_mu = True
+  -- generation FID --
+    gen_fid_prior = 320.8908996582031
+    gen_fid_ncp_prior = 320.65325927734375

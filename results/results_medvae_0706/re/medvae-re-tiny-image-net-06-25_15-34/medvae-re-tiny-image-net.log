@@ -1,0 +1,80 @@
+============================================================
+[2026-06-25 20:41:11] run=dq_1e-05_klt_1e-08  split=test
+  L1    : 0.057379
+  MSE   : 0.008015
+  LPIPS : 0.062945
+  PSNR  : 27.2204 dB
+  SSIM  : 0.930634
+  FID   : 5.3178
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-25 22:32:05] run=vae_kl_1e-05  split=test
+  L1    : 0.072290
+  MSE   : 0.011388
+  LPIPS : 0.090572
+  PSNR  : 25.6813 dB
+  SSIM  : 0.900860
+  FID   : 7.3941
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 01:16:55] run=iwae_kl_1e-05  split=test
+  L1    : 0.069304
+  MSE   : 0.010474
+  LPIPS : 0.086015
+  PSNR  : 26.0132 dB
+  SSIM  : 0.904404
+  FID   : 7.4056
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-26 04:00:19] run=iwae_kl_1e-06  split=test
+  L1    : 0.051553
+  MSE   : 0.006399
+  LPIPS : 0.052792
+  PSNR  : 28.2039 dB
+  SSIM  : 0.943589
+  FID   : 4.5039
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae

@@ -1,0 +1,95 @@
+{
+  "cfg": {
+    "data_root": "/home/yzm/data_cifar10",
+    "data_root_candidates": [
+      "./data_cifar10",
+      "/home/yzm/data_cifar10"
+    ],
+    "image_key": "img",
+    "download_data": false,
+    "vae_source_notebook": "/home/yzm/ipy/notebook/sSegUnet-medvae-sd-cifar10-eval.ipynb",
+    "vae_module_hint": null,
+    "vae_ckpt_path": "./checkpoints/medvae_no_sd_best.pth",
+    "vae_ckpt_candidates": [
+      "./checkpoints/medvae_no_sd_best.pth",
+      "./checkpoints/medvae-no-sd-cifar10-05-06_12-02/medvae_no_sd_best.pth",
+      "/home/yzm/ipy/checkpoints/medvae-no-sd-cifar10-05-06_12-02/medvae_no_sd_best.pth"
+    ],
+    "save_root": "./CheckpointsLatentMedVAEConditional",
+    "exp_root": "./CheckpointsLatentMedVAEConditional/tweedie_conditioned",
+    "image_size": 32,
+    "image_channels": 3,
+    "embed_dim": 8,
+    "latent_hw": 8,
+    "val_split_ratio": 0.1,
+    "split_seed": 42,
+    "train_use_augment": false,
+    "batch_size": 128,
+    "test_batch_size": 128,
+    "num_workers": 2,
+    "smoke_subset": 0,
+    "strict_batch_size": 128,
+    "T": 500,
+    "beta_1": 0.0001,
+    "beta_T": 0.02,
+    "cond_mode": "concat_latent",
+    "cond_channels": 8,
+    "use_noise_loss": true,
+    "score_loss_mode": "stopgrad",
+    "rec_weight_mode": "plain",
+    "likelihood_sigma2": 1.0,
+    "lambda_rec": 0.05,
+    "lambda_score": 0.01,
+    "unet_ch": 128,
+    "unet_ch_mult": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "unet_attn": [
+      1
+    ],
+    "unet_res_blocks": 2,
+    "unet_dropout": 0.1,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "grad_clip": 1.0,
+    "smoke_epochs": 20,
+    "three_way_warm_epochs": 20,
+    "three_way_total_epochs": 30,
+    "strict_warm_epochs": 10,
+    "smoke_max_steps": null,
+    "strict_max_steps": null,
+    "rec_fid_t": 100,
+    "rec_fid_n_real": 10000,
+    "rec_fid_n_samples": 5000,
+    "rec_fid_batch_size": 64,
+    "rec_eval_t_list": [
+      50,
+      100,
+      200,
+      300,
+      400
+    ],
+    "run_smoke": false,
+    "run_three_way_compare": true,
+    "run_strict_smoke": false,
+    "run_rec_fid": true,
+    "run_rec_vis": true,
+    "device": "cuda"
+  },
+  "model_names": [
+    "cond_noise",
+    "cond_rec",
+    "cond_rec_score_stopgrad",
+    "strict_warm_lr2e-5_ls1e-3"
+  ],
+  "split_sizes": {
+    "train": 45000,
+    "val": 5000,
+    "test": 10000
+  },
+  "eval_loader": "test_loader",
+  "train_eval_loader": "val_loader"
+}

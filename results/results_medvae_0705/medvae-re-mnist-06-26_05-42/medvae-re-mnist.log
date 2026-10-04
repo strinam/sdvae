@@ -1,0 +1,1520 @@
+============================================================
+[2026-06-26 05:58:58] run=vae_kl_1e-05  split=test
+  L1    : 0.009734
+  MSE   : 0.000677
+  LPIPS : 0.001395
+  PSNR  : 37.8399 dB
+  SSIM  : 0.997617
+  FID   : 0.5746
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 06:15:51] run=vae_kl_1e-06  split=test
+  L1    : 0.008023
+  MSE   : 0.000447
+  LPIPS : 0.000943
+  PSNR  : 39.7296 dB
+  SSIM  : 0.998476
+  FID   : 0.4409
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 06:32:16] run=vae_kl_1e-05  split=test
+  L1    : 0.010034
+  MSE   : 0.000730
+  LPIPS : 0.001447
+  PSNR  : 37.5449 dB
+  SSIM  : 0.997897
+  FID   : 0.6255
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 06:48:24] run=vae_kl_1e-05  split=test
+  L1    : 0.012228
+  MSE   : 0.001299
+  LPIPS : 0.002590
+  PSNR  : 35.0142 dB
+  SSIM  : 0.996221
+  FID   : 0.8202
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 07:05:00] run=vae_kl_1e-05  split=test
+  L1    : 0.011396
+  MSE   : 0.001050
+  LPIPS : 0.002154
+  PSNR  : 35.9445 dB
+  SSIM  : 0.997126
+  FID   : 0.7555
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 07:20:57] run=vae_kl_1e-05  split=test
+  L1    : 0.009635
+  MSE   : 0.000679
+  LPIPS : 0.001324
+  PSNR  : 37.8399 dB
+  SSIM  : 0.997488
+  FID   : 0.5125
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 07:36:23] run=vae_kl_1e-05  split=test
+  L1    : 0.009764
+  MSE   : 0.000664
+  LPIPS : 0.001371
+  PSNR  : 37.9309 dB
+  SSIM  : 0.997241
+  FID   : 0.6013
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 07:52:18] run=vae_kl_1e-05  split=test
+  L1    : 0.009366
+  MSE   : 0.000640
+  LPIPS : 0.001299
+  PSNR  : 38.1134 dB
+  SSIM  : 0.998150
+  FID   : 0.5256
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 08:08:53] run=vae_kl_1e-05  split=test
+  L1    : 0.009805
+  MSE   : 0.000666
+  LPIPS : 0.001305
+  PSNR  : 37.9442 dB
+  SSIM  : 0.997327
+  FID   : 0.5349
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 08:24:53] run=vae_kl_1e-06  split=test
+  L1    : 0.007262
+  MSE   : 0.000307
+  LPIPS : 0.000721
+  PSNR  : 41.3805 dB
+  SSIM  : 0.998295
+  FID   : 0.4114
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 08:40:04] run=vae_kl_1e-06  split=test
+  L1    : 0.008470
+  MSE   : 0.000491
+  LPIPS : 0.001062
+  PSNR  : 39.3090 dB
+  SSIM  : 0.998282
+  FID   : 0.4883
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 08:55:39] run=vae_kl_1e-06  split=test
+  L1    : 0.007972
+  MSE   : 0.000461
+  LPIPS : 0.000904
+  PSNR  : 39.6233 dB
+  SSIM  : 0.998551
+  FID   : 0.3871
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 09:11:37] run=vae_kl_1e-06  split=test
+  L1    : 0.007210
+  MSE   : 0.000330
+  LPIPS : 0.000706
+  PSNR  : 41.1177 dB
+  SSIM  : 0.999041
+  FID   : 0.3298
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 09:28:18] run=vae_kl_1e-06  split=test
+  L1    : 0.008176
+  MSE   : 0.000458
+  LPIPS : 0.000985
+  PSNR  : 39.6480 dB
+  SSIM  : 0.998708
+  FID   : 0.4341
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 09:45:04] run=vae_kl_1e-06  split=test
+  L1    : 0.007957
+  MSE   : 0.000442
+  LPIPS : 0.000926
+  PSNR  : 39.7756 dB
+  SSIM  : 0.998402
+  FID   : 0.4463
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 10:01:29] run=vae_kl_1e-06  split=test
+  L1    : 0.008709
+  MSE   : 0.000490
+  LPIPS : 0.001056
+  PSNR  : 39.3289 dB
+  SSIM  : 0.997518
+  FID   : 0.4822
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = vae
+============================================================
+[2026-06-26 10:34:46] run=dq_1e-05_klt_1e-08  split=test
+  L1    : 0.008719
+  MSE   : 0.000516
+  LPIPS : 0.001140
+  PSNR  : 39.0999 dB
+  SSIM  : 0.998620
+  FID   : 0.5456
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 11:08:48] run=dq_1e-05_klt_1e-08  split=test
+  L1    : 0.008766
+  MSE   : 0.000494
+  LPIPS : 0.001072
+  PSNR  : 39.3350 dB
+  SSIM  : 0.998633
+  FID   : 0.4218
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 11:42:31] run=dq_1e-05_klt_1e-08  split=test
+  L1    : 0.008509
+  MSE   : 0.000502
+  LPIPS : 0.001040
+  PSNR  : 39.2811 dB
+  SSIM  : 0.998644
+  FID   : 0.4183
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 12:17:05] run=dq_1e-05_klt_1e-08  split=test
+  L1    : 0.008392
+  MSE   : 0.000478
+  LPIPS : 0.001040
+  PSNR  : 39.4510 dB
+  SSIM  : 0.998703
+  FID   : 0.4442
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 12:51:28] run=dq_1e-06_klt_1e-08  split=test
+  L1    : 0.008053
+  MSE   : 0.000441
+  LPIPS : 0.000932
+  PSNR  : 39.7927 dB
+  SSIM  : 0.998781
+  FID   : 0.4440
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 13:25:52] run=dq_1e-06_klt_1e-08  split=test
+  L1    : 0.007802
+  MSE   : 0.000411
+  LPIPS : 0.000837
+  PSNR  : 40.1394 dB
+  SSIM  : 0.998845
+  FID   : 0.4122
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 13:59:35] run=dq_1e-06_klt_1e-08  split=test
+  L1    : 0.007118
+  MSE   : 0.000338
+  LPIPS : 0.000705
+  PSNR  : 40.9428 dB
+  SSIM  : 0.999086
+  FID   : 0.3882
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 14:33:07] run=dq_1e-06_klt_1e-08  split=test
+  L1    : 0.006721
+  MSE   : 0.000271
+  LPIPS : 0.000596
+  PSNR  : 41.9854 dB
+  SSIM  : 0.998404
+  FID   : 0.3324
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 15:06:43] run=dq_1e-05_klt_4e-08  split=test
+  L1    : 0.008852
+  MSE   : 0.000563
+  LPIPS : 0.001149
+  PSNR  : 38.7435 dB
+  SSIM  : 0.998383
+  FID   : 0.4475
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 15:40:56] run=dq_1e-05_klt_4e-08  split=test
+  L1    : 0.008485
+  MSE   : 0.000488
+  LPIPS : 0.001036
+  PSNR  : 39.3851 dB
+  SSIM  : 0.998671
+  FID   : 0.4178
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 16:15:15] run=dq_1e-05_klt_4e-08  split=test
+  L1    : 0.009864
+  MSE   : 0.000785
+  LPIPS : 0.001676
+  PSNR  : 37.2439 dB
+  SSIM  : 0.997802
+  FID   : 0.6317
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 16:47:58] run=dq_1e-05_klt_4e-08  split=test
+  L1    : 0.008468
+  MSE   : 0.000502
+  LPIPS : 0.001090
+  PSNR  : 39.2149 dB
+  SSIM  : 0.998216
+  FID   : 0.4910
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 17:22:32] run=dq_1e-06_klt_4e-08  split=test
+  L1    : 0.008168
+  MSE   : 0.000430
+  LPIPS : 0.000917
+  PSNR  : 39.9367 dB
+  SSIM  : 0.997929
+  FID   : 0.4378
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 17:56:41] run=dq_1e-06_klt_4e-08  split=test
+  L1    : 0.008082
+  MSE   : 0.000416
+  LPIPS : 0.000936
+  PSNR  : 40.0363 dB
+  SSIM  : 0.998883
+  FID   : 0.4548
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 18:30:53] run=dq_1e-06_klt_4e-08  split=test
+  L1    : 0.007712
+  MSE   : 0.000423
+  LPIPS : 0.000906
+  PSNR  : 39.9900 dB
+  SSIM  : 0.998896
+  FID   : 0.4001
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 19:05:10] run=dq_1e-06_klt_4e-08  split=test
+  L1    : 0.007881
+  MSE   : 0.000402
+  LPIPS : 0.000861
+  PSNR  : 40.2478 dB
+  SSIM  : 0.998861
+  FID   : 0.4113
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 19:39:17] run=dq_1e-05_klt_1e-06  split=test
+  L1    : 0.012548
+  MSE   : 0.001368
+  LPIPS : 0.002693
+  PSNR  : 34.8084 dB
+  SSIM  : 0.996430
+  FID   : 0.8466
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 20:13:20] run=dq_1e-05_klt_1e-06  split=test
+  L1    : 0.009152
+  MSE   : 0.000567
+  LPIPS : 0.001259
+  PSNR  : 38.6542 dB
+  SSIM  : 0.997735
+  FID   : 0.5426
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 20:48:29] run=dq_1e-05_klt_1e-06  split=test
+  L1    : 0.008817
+  MSE   : 0.000541
+  LPIPS : 0.001162
+  PSNR  : 38.8867 dB
+  SSIM  : 0.998124
+  FID   : 0.5360
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 21:22:07] run=dq_1e-05_klt_1e-06  split=test
+  L1    : 0.009439
+  MSE   : 0.000545
+  LPIPS : 0.001212
+  PSNR  : 38.8409 dB
+  SSIM  : 0.996653
+  FID   : 0.5784
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 21:56:21] run=dq_1e-06_klt_1e-06  split=test
+  L1    : 0.009067
+  MSE   : 0.000527
+  LPIPS : 0.001127
+  PSNR  : 39.0128 dB
+  SSIM  : 0.997243
+  FID   : 0.5335
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 22:30:56] run=dq_1e-06_klt_1e-06  split=test
+  L1    : 0.008455
+  MSE   : 0.000497
+  LPIPS : 0.001010
+  PSNR  : 39.2650 dB
+  SSIM  : 0.998652
+  FID   : 0.4532
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 23:06:58] run=dq_1e-06_klt_1e-06  split=test
+  L1    : 0.008136
+  MSE   : 0.000464
+  LPIPS : 0.000965
+  PSNR  : 39.5748 dB
+  SSIM  : 0.998207
+  FID   : 0.4886
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-26 23:43:00] run=dq_1e-06_klt_1e-06  split=test
+  L1    : 0.008357
+  MSE   : 0.000488
+  LPIPS : 0.001003
+  PSNR  : 39.3478 dB
+  SSIM  : 0.998011
+  FID   : 0.4695
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 00:19:03] run=dq_1e-05_klt_1e-05  split=test
+  L1    : 0.010196
+  MSE   : 0.000774
+  LPIPS : 0.001599
+  PSNR  : 37.2975 dB
+  SSIM  : 0.997716
+  FID   : 0.6252
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 00:55:11] run=dq_1e-05_klt_1e-05  split=test
+  L1    : 0.010262
+  MSE   : 0.000780
+  LPIPS : 0.001666
+  PSNR  : 37.2646 dB
+  SSIM  : 0.997510
+  FID   : 0.7028
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 01:30:42] run=dq_1e-05_klt_1e-05  split=test
+  L1    : 0.010155
+  MSE   : 0.000722
+  LPIPS : 0.001516
+  PSNR  : 37.6025 dB
+  SSIM  : 0.997494
+  FID   : 0.6718
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 02:06:28] run=dq_1e-05_klt_1e-05  split=test
+  L1    : 0.009441
+  MSE   : 0.000668
+  LPIPS : 0.001371
+  PSNR  : 37.9447 dB
+  SSIM  : 0.997812
+  FID   : 0.5844
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 02:43:26] run=dq_1e-06_klt_1e-05  split=test
+  L1    : 0.009878
+  MSE   : 0.000693
+  LPIPS : 0.001396
+  PSNR  : 37.7535 dB
+  SSIM  : 0.996763
+  FID   : 0.6006
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 03:19:40] run=dq_1e-06_klt_1e-05  split=test
+  L1    : 0.009153
+  MSE   : 0.000614
+  LPIPS : 0.001230
+  PSNR  : 38.3270 dB
+  SSIM  : 0.998231
+  FID   : 0.5476
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 03:54:30] run=dq_1e-06_klt_1e-05  split=test
+  L1    : 0.010597
+  MSE   : 0.000790
+  LPIPS : 0.001637
+  PSNR  : 37.2459 dB
+  SSIM  : 0.997932
+  FID   : 0.6207
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 04:30:01] run=dq_1e-06_klt_1e-05  split=test
+  L1    : 0.009252
+  MSE   : 0.000625
+  LPIPS : 0.001257
+  PSNR  : 38.2437 dB
+  SSIM  : 0.997799
+  FID   : 0.5019
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 05:05:32] run=dq_1e-05_klt_1e-08  split=test
+  L1    : 0.008420
+  MSE   : 0.000500
+  LPIPS : 0.001058
+  PSNR  : 39.2562 dB
+  SSIM  : 0.998528
+  FID   : 0.5051
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 05:41:59] run=dq_1e-06_klt_1e-08  split=test
+  L1    : 0.007814
+  MSE   : 0.000439
+  LPIPS : 0.000964
+  PSNR  : 39.7947 dB
+  SSIM  : 0.998408
+  FID   : 0.4754
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 06:19:26] run=dq_5e-05_klt_1e-08  split=test
+  L1    : 0.009836
+  MSE   : 0.000698
+  LPIPS : 0.001464
+  PSNR  : 37.7601 dB
+  SSIM  : 0.997219
+  FID   : 0.6237
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 5e-05
+    klt_weight = 1e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 06:54:35] run=dq_1e-05_klt_4e-08  split=test
+  L1    : 0.008577
+  MSE   : 0.000520
+  LPIPS : 0.001079
+  PSNR  : 39.0757 dB
+  SSIM  : 0.998540
+  FID   : 0.4763
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 07:31:12] run=dq_1e-06_klt_4e-08  split=test
+  L1    : 0.006592
+  MSE   : 0.000257
+  LPIPS : 0.000556
+  PSNR  : 42.2625 dB
+  SSIM  : 0.999277
+  FID   : 0.3207
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 08:07:16] run=dq_5e-05_klt_4e-08  split=test
+  L1    : 0.013086
+  MSE   : 0.001589
+  LPIPS : 0.003043
+  PSNR  : 34.1729 dB
+  SSIM  : 0.996030
+  FID   : 0.8795
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 5e-05
+    klt_weight = 4e-08
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 08:43:56] run=dq_1e-05_klt_1e-06  split=test
+  L1    : 0.009121
+  MSE   : 0.000603
+  LPIPS : 0.001256
+  PSNR  : 38.4289 dB
+  SSIM  : 0.998415
+  FID   : 0.5137
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 09:20:03] run=dq_1e-06_klt_1e-06  split=test
+  L1    : 0.008542
+  MSE   : 0.000491
+  LPIPS : 0.000987
+  PSNR  : 39.3311 dB
+  SSIM  : 0.997621
+  FID   : 0.4873
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 09:56:23] run=dq_5e-05_klt_1e-06  split=test
+  L1    : 0.013224
+  MSE   : 0.001541
+  LPIPS : 0.003077
+  PSNR  : 34.2721 dB
+  SSIM  : 0.995285
+  FID   : 0.9524
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 5e-05
+    klt_weight = 1e-06
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 10:29:18] run=dq_1e-05_klt_1e-05  split=test
+  L1    : 0.009673
+  MSE   : 0.000689
+  LPIPS : 0.001446
+  PSNR  : 37.8182 dB
+  SSIM  : 0.997458
+  FID   : 0.6029
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-05
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 10:56:54] run=dq_1e-06_klt_1e-05  split=test
+  L1    : 0.009853
+  MSE   : 0.000703
+  LPIPS : 0.001462
+  PSNR  : 37.7272 dB
+  SSIM  : 0.997690
+  FID   : 0.6418
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 1e-06
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 11:24:33] run=dq_5e-05_klt_1e-05  split=test
+  L1    : 0.013819
+  MSE   : 0.001822
+  LPIPS : 0.003589
+  PSNR  : 33.5817 dB
+  SSIM  : 0.994909
+  FID   : 1.1143
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 5e-05
+    klt_weight = 1e-05
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = sd
+============================================================
+[2026-06-27 11:39:45] run=iwae_kl_1e-05  split=test
+  L1    : 0.009944
+  MSE   : 0.000735
+  LPIPS : 0.001482
+  PSNR  : 37.5019 dB
+  SSIM  : 0.997182
+  FID   : 0.5900
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 11:54:43] run=iwae_kl_1e-06  split=test
+  L1    : 0.007786
+  MSE   : 0.000387
+  LPIPS : 0.000838
+  PSNR  : 40.3794 dB
+  SSIM  : 0.998545
+  FID   : 0.4058
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 12:09:39] run=iwae_kl_1e-05  split=test
+  L1    : 0.009456
+  MSE   : 0.000649
+  LPIPS : 0.001371
+  PSNR  : 38.0534 dB
+  SSIM  : 0.998108
+  FID   : 0.5515
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 12:24:48] run=iwae_kl_1e-05  split=test
+  L1    : 0.010318
+  MSE   : 0.000786
+  LPIPS : 0.001473
+  PSNR  : 37.2138 dB
+  SSIM  : 0.996993
+  FID   : 0.5444
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 12:39:59] run=iwae_kl_1e-05  split=test
+  L1    : 0.009497
+  MSE   : 0.000651
+  LPIPS : 0.001356
+  PSNR  : 38.0492 dB
+  SSIM  : 0.997709
+  FID   : 0.5829
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 12:55:10] run=iwae_kl_1e-05  split=test
+  L1    : 0.010117
+  MSE   : 0.000739
+  LPIPS : 0.001468
+  PSNR  : 37.4922 dB
+  SSIM  : 0.997892
+  FID   : 0.5949
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 13:10:29] run=iwae_kl_1e-05  split=test
+  L1    : 0.010110
+  MSE   : 0.000692
+  LPIPS : 0.001391
+  PSNR  : 37.7505 dB
+  SSIM  : 0.996723
+  FID   : 0.6339
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 13:25:37] run=iwae_kl_1e-05  split=test
+  L1    : 0.010063
+  MSE   : 0.000686
+  LPIPS : 0.001392
+  PSNR  : 37.8267 dB
+  SSIM  : 0.998145
+  FID   : 0.5720
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 13:41:05] run=iwae_kl_1e-05  split=test
+  L1    : 0.010184
+  MSE   : 0.000751
+  LPIPS : 0.001517
+  PSNR  : 37.4363 dB
+  SSIM  : 0.997973
+  FID   : 0.5750
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-05
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 13:55:47] run=iwae_kl_1e-06  split=test
+  L1    : 0.007878
+  MSE   : 0.000434
+  LPIPS : 0.000911
+  PSNR  : 39.8518 dB
+  SSIM  : 0.998219
+  FID   : 0.4573
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 14:10:45] run=iwae_kl_1e-06  split=test
+  L1    : 0.007002
+  MSE   : 0.000287
+  LPIPS : 0.000626
+  PSNR  : 41.8032 dB
+  SSIM  : 0.999179
+  FID   : 0.3364
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 14:25:39] run=iwae_kl_1e-06  split=test
+  L1    : 0.008484
+  MSE   : 0.000488
+  LPIPS : 0.001021
+  PSNR  : 39.3434 dB
+  SSIM  : 0.998077
+  FID   : 0.4511
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 14:40:49] run=iwae_kl_1e-06  split=test
+  L1    : 0.006786
+  MSE   : 0.000263
+  LPIPS : 0.000587
+  PSNR  : 42.1599 dB
+  SSIM  : 0.999272
+  FID   : 0.3032
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 14:55:44] run=iwae_kl_1e-06  split=test
+  L1    : 0.007431
+  MSE   : 0.000333
+  LPIPS : 0.000691
+  PSNR  : 41.1601 dB
+  SSIM  : 0.999125
+  FID   : 0.3102
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 15:10:51] run=iwae_kl_1e-06  split=test
+  L1    : 0.008675
+  MSE   : 0.000476
+  LPIPS : 0.001006
+  PSNR  : 39.4707 dB
+  SSIM  : 0.998787
+  FID   : 0.4418
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae
+============================================================
+[2026-06-27 15:26:02] run=iwae_kl_1e-06  split=test
+  L1    : 0.008030
+  MSE   : 0.000449
+  LPIPS : 0.000981
+  PSNR  : 39.7257 dB
+  SSIM  : 0.998555
+  FID   : 0.4364
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = 0.1
+    klt_weight = 1e-10
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = 2
+    sigma2 = 1.0
+    loss_mode = iwae

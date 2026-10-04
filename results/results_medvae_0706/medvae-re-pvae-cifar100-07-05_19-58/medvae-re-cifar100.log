@@ -1,0 +1,120 @@
+============================================================
+[2026-07-05 20:11:20] run=pvae_klw1e-06_pi0  split=test
+  L1    : 0.070108
+  MSE   : 0.009171
+  LPIPS : 0.094272
+  PSNR  : 26.4370 dB
+  SSIM  : 0.904896
+  FID   : 16.7823
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = None
+    klt_weight = None
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = None
+    sigma2 = None
+    loss_mode = pvae
+============================================================
+[2026-07-05 20:23:39] run=pvae_klw1e-08_pi0  split=test
+  L1    : 0.060790
+  MSE   : 0.007173
+  LPIPS : 0.078176
+  PSNR  : 27.5137 dB
+  SSIM  : 0.920732
+  FID   : 14.4263
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-08
+    dq_weight = None
+    klt_weight = None
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = None
+    sigma2 = None
+    loss_mode = pvae
+============================================================
+[2026-07-05 20:36:13] run=pvae_klw1e-10_pi0  split=test
+  L1    : 0.059301
+  MSE   : 0.006797
+  LPIPS : 0.072378
+  PSNR  : 27.7757 dB
+  SSIM  : 0.928300
+  FID   : 13.9963
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-10
+    dq_weight = None
+    klt_weight = None
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = None
+    sigma2 = None
+    loss_mode = pvae
+============================================================
+[2026-07-05 20:49:04] run=pvae_klw1e-06_pi2  split=test
+  L1    : 0.060747
+  MSE   : 0.007042
+  LPIPS : 0.074504
+  PSNR  : 27.6045 dB
+  SSIM  : 0.925961
+  FID   : 14.3324
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-06
+    dq_weight = None
+    klt_weight = None
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = None
+    sigma2 = None
+    loss_mode = pvae
+============================================================
+[2026-07-05 21:01:39] run=pvae_klw1e-08_pi2  split=test
+  L1    : 0.055603
+  MSE   : 0.006019
+  LPIPS : 0.065947
+  PSNR  : 28.2938 dB
+  SSIM  : 0.932591
+  FID   : 12.3350
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-08
+    dq_weight = None
+    klt_weight = None
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = None
+    sigma2 = None
+    loss_mode = pvae
+============================================================
+[2026-07-05 21:14:09] run=pvae_klw1e-10_pi2  split=test
+  L1    : 0.054000
+  MSE   : 0.005709
+  LPIPS : 0.062424
+  PSNR  : 28.5123 dB
+  SSIM  : 0.938325
+  FID   : 12.5612
+  num_samples : 10000
+  -- hyper-params (LPIPSWithDiscriminator) --
+    disc_start = 2000
+    kl_weight = 1e-10
+    dq_weight = None
+    klt_weight = None
+    pixelloss_weight = 1.0
+    perceptual_weight = 0.25
+    disc_weight = 0.1
+    sample_K = None
+    sigma2 = None
+    loss_mode = pvae
